@@ -1,10 +1,10 @@
 # Carter Ward | Evisions Internship Portfolio
 
-Personal portfolio site built during my Summer 2026 internship with Evisions, showcasing project work, background, resume, and reflections.
+Personal portfolio site built during my Summer 2026 internship with Evisions, showcasing project work and more
 
 ## Live Site
 
-- https://csw04-exe.github.io
+[...]
 
 ## Sections
 
