@@ -1,0 +1,6 @@
+﻿"Report Date: 7/14/2026","Course Schedule","Extract Delimited"
+"Subj","Crse","Section","CRN","Title","Term Code","Term Desc","Max Enrl","Actual Enroll","Seats Avail","PTRM Code","Start Date","End Date","Instructor ID","Instructor Last Name","Instructor First Name","Campus","College","Department"
+"EAS","=""101""","=""001""","11742","Introduction to Engineering","201710","Fall 2016","20","0","20","=""1""","9/7/2016","12/18/2016","=""""","","","Main","School of Science/Engineering","Engineering Science"
+"EAS","=""101""","=""200""","13127","Introduction to Engineering","201710","Fall 2016","25","0","25","=""1""","9/7/2016","12/18/2016","=""FAC019118""","Curran","Dave","Main","School of Science/Engineering","Engineering Science"
+"EAS","=""101""","=""401""","13128","Introduction to Engineering","201710","Fall 2016","25","0","25","=""1""","9/7/2016","12/18/2016","=""FAC019118""","Curran","Dave","Main","School of Science/Engineering","Engineering Science"
+"","","","","","","Total Enrollment:","70","0","70"

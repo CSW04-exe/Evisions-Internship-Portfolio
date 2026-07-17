@@ -1,0 +1,15 @@
+Hi, welcome to my Evisions Internship Portfolio!
+
+In this portfolio, you will find information about me, the internship experience, the projects I have worked on, my resume and CV, and ways to get in touch
+This site documents my journey through the Evisions internship program, from the departments I rotated through to the mock product and capstone I built along the way
+
+Use the navigation bar at the top of the page to explore each section
+Visit About to learn more about my background and how this internship came together
+Visit Projects to see the work completed each week, along with the mock product, capstone, bonus courses, and shadow days
+Visit Reflection for a look back at the overall experience, insights gained, and advice for future interns
+Visit Resume and CV to view or download my documents
+Visit Contact to connect with me directly
+
+Curious where to start? Check out the two biggest projects from this internship!
+The Mock Product: a dashboard concept built to support student engagement - view it here
+The Capstonne: the final presentation bringing together everything learned throughout the program - view it here
