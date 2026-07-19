@@ -5,25 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mock Product · Carter Ward</title>
 <meta name="description" content="SEA (Social Engagement Accelerator): the mock dashboard product built throughout Carter Ward's Evisions internship.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mock Product · Carter Ward">
+<meta property="og:description" content="SEA (Social Engagement Accelerator): the mock dashboard product built throughout Carter Ward's Evisions internship.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mock Product · Carter Ward">
+<meta name="twitter:description" content="SEA (Social Engagement Accelerator): the mock dashboard product built throughout Carter Ward's Evisions internship.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2316324a'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23dda23e' text-anchor='middle'%3ECW%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="topnav">
   <div class="topnav-inner">
-    <a class="brand" href="index.html">Carter Ward</a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="projects.html" class="active">Projects</a></li>
-<li><a href="reflection.html">Reflection</a></li>
-<li><a href="resume.html">Resume</a></li>
-<li><a href="contact.html">Contact</a></li>
-    </ul>
+    <a class="brand" href="../index.html">Carter Ward</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+<li><a href="../about.html">About</a></li>
+<li><a href="index.html" class="active">Projects</a></li>
+<li><a href="../reflection.html">Reflection</a></li>
+<li><a href="../resume.html">Resume</a></li>
+<li><a href="../contact.html">Contact</a></li>
+      </ul>
+      <button class="help-btn" type="button" aria-haspopup="dialog" aria-controls="site-help-modal" aria-expanded="false" aria-label="Site help">?</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    </div>
   </div>
 </header>
+<div class="modal-backdrop" id="site-help-modal" role="dialog" aria-modal="true" aria-labelledby="site-help-title" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="site-help-title">Site Help</h2>
+      <button class="modal-close" type="button" aria-label="Close help">&times;</button>
+    </div>
+    <div class="modal-body">
+      <h3>Getting around</h3>
+      <ul>
+        <li>The top navigation bar moves between the six main sections: Home, About, Projects, Reflection, Resume, and Contact.</li>
+        <li>Inside Projects, the left sidebar switches between Department Weeks, Mock Product, Capstone, Bonus Courses, and Shadow Days. Breadcrumbs at the top of each page show exactly where you are.</li>
+        <li>Each department week has Previous / Next links at the bottom to move through all seven in order.</li>
+      </ul>
+      <h3>About the data shown</h3>
+      <p>SEA (Social Engagement Accelerator) is a fictional concept product built for this internship, not a real Evisions product. Screenshots in the Department Weeks section come from Argos&rsquo; standard training database, a long-running fictional dataset Evisions uses for training. None of it reflects real students, employees, or institutions.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
 
     <div class="container">
@@ -32,17 +59,17 @@
       <aside class="projects-sidebar" aria-label="Projects navigation">
         <div class="projects-sidebar-title">Projects</div>
         <ul>
-          <li><a href="projects-weeks.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8 3.5v3.5M16 3.5v3.5"/></svg><span>Department Weeks</span></a></li>
+          <li><a href="weeks.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8 3.5v3.5M16 3.5v3.5"/></svg><span>Department Weeks</span></a></li>
 <li><a href="mock-product.html" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="11.5" rx="1.5"/><path d="M9 20.5h6M12 16.5v4"/></svg><span>Mock Product</span></a></li>
 <li><a href="capstone.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5v17"/><path d="M6 4.5h11l-2.6 3.5L17 11.5H6"/></svg><span>Capstone</span></a></li>
-<li><a href="projects-bonus.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l2.3 4.9 5.3.7-3.9 3.7.9 5.3L12 16l-4.6 2.6.9-5.3-3.9-3.7 5.3-.7Z"/></svg><span>Bonus Courses</span></a></li>
+<li><a href="bonus.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l2.3 4.9 5.3.7-3.9 3.7.9 5.3L12 16l-4.6 2.6.9-5.3-3.9-3.7 5.3-.7Z"/></svg><span>Bonus Courses</span></a></li>
 <li><a href="shadow-days.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></svg><span>Shadow Days</span></a></li>
         </ul>
       </aside>
         <div class="projects-content">
           
 <div class="detail-header">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="projects.html">Projects</a><span class="sep">/</span><span class="current">Mock Product</span></nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Projects</a><span class="sep">/</span><span class="current">Mock Product</span></nav>
   <span class="detail-kicker">Mock Product</span>
   <h1>SEA &middot; Social Engagement Accelerator</h1>
   <p class="section-lede">The dashboard concept used as the throughline project for the entire
@@ -65,7 +92,23 @@
 </div>
 
 <div class="detail-block">
-  <h2><span class="num">02</span>Reflection</h2>
+  <h2><span class="num">02</span>Brand</h2>
+  <p>A quick logo and color exercise from the Week 4 Marketing rotation, built to give SEA a consistent
+  look across every mock deliverable that followed.</p>
+  <div class="screenshot-gallery">
+    <figure class="screenshot-figure">
+      <img src="../assets/img/sea-logo.png" alt="SEA (Student Engagement Accelerator) logo on a light blue background with a graduation cap pattern.">
+      <figcaption>SEA logo concept</figcaption>
+    </figure>
+    <figure class="screenshot-figure">
+      <img src="../assets/img/sea-brand-colors.png" alt="SEA primary brand color palette: light blue, navy, and medium blue swatches.">
+      <figcaption>Primary brand color palette</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="detail-block">
+  <h2><span class="num">03</span>Reflection</h2>
   <p>Using one continuous, fictional product as the throughline for every department rotation was the
   most effective part of the internship&rsquo;s design. Rather than learning product strategy,
   engineering, marketing, support, finance, and sales as disconnected lessons, each one got taught in
@@ -75,21 +118,22 @@
 </div>
 
 <div class="detail-block">
-  <h2><span class="num">03</span>Preview</h2>
+  <h2><span class="num">04</span>Preview</h2>
+  <a class="embed-fallback-link" href="../assets/documents/SEA-Wireframe.pdf" target="_blank" rel="noopener">Open the wireframe in a new tab <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6.5H6.5A1.5 1.5 0 0 0 5 8v9.5A1.5 1.5 0 0 0 6.5 19H16a1.5 1.5 0 0 0 1.5-1.5V15"/><path d="M13 5.5H18.5V11"/><path d="M18 6 10.5 13.5"/></svg></a>
   <div class="preview-window">
     <div class="preview-bar"><span></span><span></span><span></span></div>
-    <object data="assets/documents/SEA-Wireframe.pdf" type="application/pdf">
+    <object data="../assets/documents/SEA-Wireframe.pdf" type="application/pdf">
       <p class="pdf-fallback">This browser cannot display the wireframe inline.
-      <a href="assets/documents/SEA-Wireframe.pdf" target="_blank" rel="noopener">Open the wireframe directly <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6.5H6.5A1.5 1.5 0 0 0 5 8v9.5A1.5 1.5 0 0 0 6.5 19H16a1.5 1.5 0 0 0 1.5-1.5V15"/><path d="M13 5.5H18.5V11"/><path d="M18 6 10.5 13.5"/></svg></a></p>
+      <a href="../assets/documents/SEA-Wireframe.pdf" target="_blank" rel="noopener">Open the wireframe directly <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6.5H6.5A1.5 1.5 0 0 0 5 8v9.5A1.5 1.5 0 0 0 6.5 19H16a1.5 1.5 0 0 0 1.5-1.5V15"/><path d="M13 5.5H18.5V11"/><path d="M18 6 10.5 13.5"/></svg></a></p>
     </object>
   </div>
   <p class="preview-caption">SEA dashboard wireframe.
-    <a href="assets/documents/SEA-Wireframe.pdf" target="_blank" rel="noopener">Open full wireframe <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6.5H6.5A1.5 1.5 0 0 0 5 8v9.5A1.5 1.5 0 0 0 6.5 19H16a1.5 1.5 0 0 0 1.5-1.5V15"/><path d="M13 5.5H18.5V11"/><path d="M18 6 10.5 13.5"/></svg></a>
+    <a href="../assets/documents/SEA-Wireframe.pdf" target="_blank" rel="noopener">Open full wireframe <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6.5H6.5A1.5 1.5 0 0 0 5 8v9.5A1.5 1.5 0 0 0 6.5 19H16a1.5 1.5 0 0 0 1.5-1.5V15"/><path d="M13 5.5H18.5V11"/><path d="M18 6 10.5 13.5"/></svg></a>
   </p>
 </div>
 
 <div class="detail-block">
-  <h2><span class="num">04</span>Skills</h2>
+  <h2><span class="num">05</span>Skills</h2>
   <ul class="skills"><li class="skill-tag">Dashboard UX</li>
 <li class="skill-tag">Data Segmentation</li>
 <li class="skill-tag">Engagement Scoring</li>
@@ -111,6 +155,6 @@
     </div>
   </div>
 </footer>
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/main.js"></script>
 </body>
 </html>

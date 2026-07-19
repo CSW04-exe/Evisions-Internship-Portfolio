@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact · Carter Ward</title>
 <meta name="description" content="Connect with Carter Ward on LinkedIn, GitHub, or by email.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact · Carter Ward">
+<meta property="og:description" content="Connect with Carter Ward on LinkedIn, GitHub, or by email.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contact · Carter Ward">
+<meta name="twitter:description" content="Connect with Carter Ward on LinkedIn, GitHub, or by email.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2316324a'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='%23dda23e' text-anchor='middle'%3ECW%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,17 +19,38 @@
 <header class="topnav">
   <div class="topnav-inner">
     <a class="brand" href="index.html">Carter Ward</a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
-    <ul class="nav-links">
+    <div class="nav-right">
+      <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
+<li><a href="projects/index.html">Projects</a></li>
 <li><a href="reflection.html">Reflection</a></li>
 <li><a href="resume.html">Resume</a></li>
 <li><a href="contact.html" class="active">Contact</a></li>
-    </ul>
+      </ul>
+      <button class="help-btn" type="button" aria-haspopup="dialog" aria-controls="site-help-modal" aria-expanded="false" aria-label="Site help">?</button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    </div>
   </div>
 </header>
+<div class="modal-backdrop" id="site-help-modal" role="dialog" aria-modal="true" aria-labelledby="site-help-title" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="site-help-title">Site Help</h2>
+      <button class="modal-close" type="button" aria-label="Close help">&times;</button>
+    </div>
+    <div class="modal-body">
+      <h3>Getting around</h3>
+      <ul>
+        <li>The top navigation bar moves between the six main sections: Home, About, Projects, Reflection, Resume, and Contact.</li>
+        <li>Inside Projects, the left sidebar switches between Department Weeks, Mock Product, Capstone, Bonus Courses, and Shadow Days. Breadcrumbs at the top of each page show exactly where you are.</li>
+        <li>Each department week has Previous / Next links at the bottom to move through all seven in order.</li>
+      </ul>
+      <h3>About the data shown</h3>
+      <p>SEA (Social Engagement Accelerator) is a fictional concept product built for this internship, not a real Evisions product. Screenshots in the Department Weeks section come from Argos&rsquo; standard training database, a long-running fictional dataset Evisions uses for training. None of it reflects real students, employees, or institutions.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
 
 <div class="container section">
