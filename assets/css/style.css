@@ -415,6 +415,12 @@ a.card:hover, .card.hoverable:hover {
 .card.placeholder:hover { transform: none; box-shadow: none; background: var(--card); }
 .card.placeholder .card-icon { color: var(--text-faint); }
 
+.badge-soon.on-dark {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
 .btn-disabled {
   display: inline-flex;
   align-items: center;
@@ -449,8 +455,20 @@ a.card:hover, .card.hoverable:hover {
   width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.25);
 }
 .preview-window img { width: 100%; display: block; }
-.preview-window embed, .preview-window iframe { width: 100%; height: 640px; border: none; display: block; }
+.preview-window embed, .preview-window iframe, .preview-window object { width: 100%; height: 640px; border: none; display: block; }
 .preview-caption { text-align: center; font-size: var(--fs-xs); color: var(--text-faint); margin-top: var(--space-3); }
+
+.pdf-fallback {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-6);
+  color: var(--text-muted);
+  background: var(--card);
+}
 
 /* ---------- Flow map (Department Weeks overview) ---------- */
 .flow-map { display: grid; gap: var(--space-3); }
@@ -530,7 +548,7 @@ a.card:hover, .card.hoverable:hover {
 .resume-card .btn { margin-top: var(--space-2); }
 .resume-actions { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; margin-top: var(--space-5); }
 .resume-embed { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-top: var(--space-6); box-shadow: var(--shadow); }
-.resume-embed embed { width: 100%; height: 780px; display: block; }
+.resume-embed embed, .resume-embed object { width: 100%; height: 780px; display: block; }
 
 /* ---------- Bonus / week overview cards with icon ---------- */
 .icon-card-list { display: grid; gap: var(--space-4); }
