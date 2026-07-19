@@ -9,11 +9,16 @@ Personal portfolio site built during my Summer 2026 internship with Evisions, sh
 ## Sections
 
 - **Home** - welcome message and overview
-- **About Me** - background, education, and skills
-- **Projects** - department work organized by week
-- **Resume and CV** - view and download options
+- **About** - background, education, and skills
+- **Projects** - sidebar-navigated section covering:
+  - Department Weeks - 7 weekly rotations (Product/UX through Customer Success/Sales)
+  - Mock Product - the SEA dashboard concept
+  - Capstone - closing presentation (not yet uploaded)
+  - Bonus Courses - Philanthropy, Communications, Connections, Business
+  - Shadow Days
+- **Reflection** - overall internship experience and takeaways
+- **Resume & CV** - resume is live; CV not yet uploaded
 - **Contact** - LinkedIn, GitHub, and email
-- **Reflections** - overall internship experience and takeaways
 
 ## Built With
 
