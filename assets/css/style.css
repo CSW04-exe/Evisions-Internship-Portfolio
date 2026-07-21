@@ -658,6 +658,26 @@ a.card:hover, .card.hoverable:hover {
 }
 .callout strong { color: #7a5a1e; }
 
+/* ---------- Document card grid ---------- */
+.doc-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(2, 1fr); margin: var(--space-5) 0 0; }
+.doc-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+}
+.doc-card:hover { background: var(--card-hover); color: var(--text); }
+.doc-card .card-icon { margin: 0; width: 40px; height: 40px; flex-shrink: 0; }
+.doc-card h4 { margin-bottom: 2px; font-size: var(--fs-sm); }
+.doc-card p { margin: 0; font-size: var(--fs-xs); color: var(--text-faint); }
+.doc-card .doc-card-arrow { width: 16px; height: 16px; color: var(--text-faint); flex-shrink: 0; }
+.doc-card:hover .doc-card-arrow { color: var(--primary); }
+
 /* ---------- Screenshot gallery ---------- */
 .screenshot-gallery { display: grid; gap: var(--space-5); grid-template-columns: repeat(2, 1fr); margin: var(--space-5) 0; }
 .screenshot-figure { margin: 0; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
@@ -688,6 +708,7 @@ a.card:hover, .card.hoverable:hover {
 
   .grid-2, .grid-3, .contact-grid { grid-template-columns: 1fr; }
   .screenshot-gallery { grid-template-columns: 1fr; }
+  .doc-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: var(--fs-2xl); }
   .container { padding: 0 var(--space-5); }
   .pager { flex-direction: column; }
