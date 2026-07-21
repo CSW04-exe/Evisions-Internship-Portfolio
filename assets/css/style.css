@@ -675,6 +675,17 @@ a.card:hover, .card.hoverable:hover {
 .doc-card .card-icon { margin: 0; width: 40px; height: 40px; flex-shrink: 0; }
 .doc-card h4 { margin-bottom: 2px; font-size: var(--fs-sm); }
 .doc-card p { margin: 0; font-size: var(--fs-xs); color: var(--text-faint); }
+.doc-card-tag {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+  background: var(--border);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
 .doc-card .doc-card-arrow { width: 16px; height: 16px; color: var(--text-faint); flex-shrink: 0; }
 .doc-card:hover .doc-card-arrow { color: var(--primary); }
 

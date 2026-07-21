@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://csw04-exe.github.io/Evisions-Internship-Portfolio/sitemap.xml
