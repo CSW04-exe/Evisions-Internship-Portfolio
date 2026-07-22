@@ -11,7 +11,7 @@ https://csw04-exe.github.io/Evisions-Internship-Portfolio/
 - **Home** (`index.html`) - welcome message and overview
 - **About** (`about.html`) - background, education, and skills
 - **Projects** (`projects/`) - sidebar-navigated section covering:
-  - Department Weeks - 7 weekly rotations (Product/UX through Customer Success/Sales)
+  - Department Weeks - 7 weekly rotations (Product/UX through Customer Success Team/Sales)
   - Mock Product - the SEA dashboard concept
   - Capstone - closing presentation (not yet uploaded)
   - Bonus Courses - Philanthropy, Communications, Connections, Business
