@@ -305,13 +305,13 @@ main { padding-top: var(--nav-height); }
   margin-bottom: var(--space-3);
 }
 .hero-avatar {
-  width: 96px;
-  height: 96px;
+  width: 152px;
+  height: 152px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: var(--shadow);
-  border: 3px solid var(--white);
-  margin-bottom: var(--space-4);
+  border: 4px solid var(--white);
+  margin-bottom: var(--space-5);
 }
 .hero h1 { font-size: var(--fs-3xl); max-width: 18ch; }
 .hero-sub { font-size: var(--fs-md); color: var(--text-muted); max-width: 62ch; }
@@ -612,33 +612,36 @@ a.card:hover, .card.hoverable:hover {
 .pager-overview:hover { color: var(--primary); }
 
 /* ---------- About page layout ---------- */
-.about-portrait {
-  width: 220px;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  margin: var(--space-5) 0 var(--space-6);
+.about-photo-array {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin: var(--space-5) 0 var(--space-7);
+}
+.about-photo-item {
+  width: 108px;
+  height: 108px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-photo-item img { width: 100%; height: 100%; object-fit: cover; }
+.about-photo-item.is-logo img {
+  width: auto;
+  height: auto;
+  max-width: 68%;
+  max-height: 68%;
+  object-fit: contain;
 }
 .about-block { margin-bottom: var(--space-8); }
 .about-subblock { margin-bottom: var(--space-5); }
-.about-subblock h4, .about-block > h2 {
-  color: var(--primary-dark);
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
-}
-.about-block > h2 { color: var(--navy); }
-.about-subblock h4 img, .about-block > h2 img {
-  height: 22px;
-  width: auto;
-  flex-shrink: 0;
-}
-.about-block > h2 img { height: 26px; }
-.about-subblock h4 img.is-photo {
-  height: 34px;
-  width: 34px;
-  border-radius: var(--radius-sm);
-  object-fit: cover;
-}
+.about-subblock h4 { color: var(--primary-dark); }
 
 /* ---------- Contact page ---------- */
 .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
