@@ -304,6 +304,15 @@ main { padding-top: var(--nav-height); }
   text-transform: uppercase;
   margin-bottom: var(--space-3);
 }
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  border: 3px solid var(--white);
+  margin-bottom: var(--space-4);
+}
 .hero h1 { font-size: var(--fs-3xl); max-width: 18ch; }
 .hero-sub { font-size: var(--fs-md); color: var(--text-muted); max-width: 62ch; }
 .hero-actions { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-top: var(--space-5); }
@@ -603,9 +612,33 @@ a.card:hover, .card.hoverable:hover {
 .pager-overview:hover { color: var(--primary); }
 
 /* ---------- About page layout ---------- */
+.about-portrait {
+  width: 220px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  margin: var(--space-5) 0 var(--space-6);
+}
 .about-block { margin-bottom: var(--space-8); }
 .about-subblock { margin-bottom: var(--space-5); }
-.about-subblock h4 { color: var(--primary-dark); }
+.about-subblock h4, .about-block > h2 {
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.about-block > h2 { color: var(--navy); }
+.about-subblock h4 img, .about-block > h2 img {
+  height: 22px;
+  width: auto;
+  flex-shrink: 0;
+}
+.about-block > h2 img { height: 26px; }
+.about-subblock h4 img.is-photo {
+  height: 34px;
+  width: 34px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+}
 
 /* ---------- Contact page ---------- */
 .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
