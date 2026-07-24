@@ -14,6 +14,7 @@ Alphabetically:
 - **`Internship_Key_Learnings.pdf`** — summary notes spanning the whole internship
 - **`Projects/`**
   - **`Bonus/`** — one folder per Friday bonus course with a distinct handout: `Business/`, `Communications/`, `Philanthropy/` (Connections had no separate handout, so there's no folder for it)
+  - **`Capstone/`** — the closing capstone deck (`Capstone 2026.pptx`) behind `projects/capstone.html`
   - **`Departments/`** — one folder per department week, `Week 1 - Product & UX/` through `Week 7 - Customer Success Team & Sales/`, each holding that week's notes and deliverables
 - **`Reflection/`** — notes behind `reflection.html`
 - **`Resume & CV/`** — source resume PDF

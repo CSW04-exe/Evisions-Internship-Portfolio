@@ -13,11 +13,11 @@ https://csw04-exe.github.io/Evisions-Internship-Portfolio/
 - **Projects** (`projects/`) - sidebar-navigated section covering:
   - Department Weeks - 7 weekly rotations (Product/UX through Customer Success Team/Sales)
   - Mock Product - the SEA dashboard concept
-  - Capstone - closing presentation (not yet uploaded)
+  - Capstone - closing presentation, synthesizing every department rotation
   - Bonus Courses - Philanthropy, Communications, Connections, Business
-  - Shadow Days
+  - Shadow Days - three extra days shadowing Marketing's Senior Developer and Analytics group
 - **Reflection** (`reflection.html`) - overall internship experience and takeaways
-- **Resume & CV** (`resume.html`) - resume is live; CV not yet uploaded
+- **Resume & CV** (`resume.html`) - both taken down for revision; neither is currently uploaded
 - **Contact** (`contact.html`) - LinkedIn, GitHub, and email
 
 Every page also has a **site help button** (the "?" in the top nav) that opens a popup with general
@@ -49,7 +49,7 @@ Top-level items, alphabetically:
 |---|---|
 | `css/style.css` | The entire site's stylesheet |
 | `documents/mock-product/` | The SEA wireframe PDF |
-| `documents/resume/` | The resume PDF |
+| `documents/resume/` | Empty; the resume PDF was taken down for revision |
 | `documents/weeks/` | Deliverable PDFs from the department weeks, filenames prefixed by week (`week4-case-study.pdf`, etc.) |
 | `img/about/` | Photos and logos used on the About page |
 | `img/weeks/` | Screenshots used on the department week pages, filenames prefixed by week |
