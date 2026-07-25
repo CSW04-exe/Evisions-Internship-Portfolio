@@ -17,7 +17,7 @@ https://csw04-exe.github.io/Evisions-Internship-Portfolio/
   - Bonus Courses - Philanthropy, Communications, Connections, Business
   - Shadow Days - three extra days shadowing Marketing's Senior Developer and Analytics group
 - **Reflection** (`reflection.html`) - overall internship experience and takeaways
-- **Resume & CV** (`resume.html`) - both taken down for revision; neither is currently uploaded
+- **Resume** (`resume.html`) - resume preview/download, key skills, and certifications
 - **Contact** (`contact.html`) - LinkedIn, GitHub, and email
 
 Every page also has a **site help button** (the "?" in the top nav) that opens a popup with general
@@ -38,7 +38,7 @@ Top-level items, alphabetically:
 | `projects/` | Every page reachable through the Projects sidebar — see below |
 | `README.md` | This file |
 | `reflection.html` | Reflection page |
-| `resume.html` | Resume & CV page |
+| `resume.html` | Resume page |
 | `robots.txt`, `sitemap.xml` | SEO files for search engines |
 | `source-material/` | Raw internship deliverables, notes, and planning docs used to write the site's content. Not part of the deployed site — see `source-material/README.md`. |
 | *17 files:* `bonus-business.html`, `bonus-communications.html`, `bonus-connections.html`, `bonus-philanthropy.html`, `capstone.html`, `mock-product.html`, `projects-bonus.html`, `projects-weeks.html`, `projects.html`, `shadow-days.html`, `week-1.html`–`week-7.html` | **Legacy redirect stubs.** The Projects section used to live at the repo root; these tiny pages just forward old bookmarks and search-engine links to their current location under `projects/`. Each one must stay at its exact original path, or the old URL it exists to catch breaks. Safe to ignore otherwise — each file also has a comment at the top saying the same thing. |
@@ -49,7 +49,7 @@ Top-level items, alphabetically:
 |---|---|
 | `css/style.css` | The entire site's stylesheet |
 | `documents/mock-product/` | The SEA wireframe PDF |
-| `documents/resume/` | Empty; the resume PDF was taken down for revision |
+| `documents/resume/` | The resume PDF |
 | `documents/weeks/` | Deliverable PDFs from the department weeks, filenames prefixed by week (`week4-case-study.pdf`, etc.) |
 | `img/about/` | Photos and logos used on the About page |
 | `img/weeks/` | Screenshots used on the department week pages, filenames prefixed by week |
