@@ -76,6 +76,7 @@ a { color: var(--primary); text-decoration: none; }
 a:hover { color: var(--primary-dark); }
 ul, ol { padding-left: 1.25em; }
 h1, h2, h3, h4 { color: var(--navy); line-height: 1.25; margin: 0 0 var(--space-3); font-weight: 700; }
+h1[id], h2[id], h3[id] { scroll-margin-top: calc(var(--nav-height) + var(--space-4)); }
 p { margin: 0 0 var(--space-4); }
 h1 { font-size: var(--fs-3xl); }
 h2 { font-size: var(--fs-2xl); }
@@ -527,6 +528,7 @@ a.card:hover, .card.hoverable:hover {
 }
 .preview-window img { width: 100%; display: block; }
 .preview-window embed, .preview-window iframe, .preview-window object { width: 100%; height: 640px; border: none; display: block; }
+.preview-window.resume-preview embed, .preview-window.resume-preview object { height: 820px; }
 .preview-caption { text-align: center; font-size: var(--fs-xs); color: var(--text-faint); margin-top: var(--space-3); }
 
 .embed-fallback-link {
@@ -652,11 +654,7 @@ a.card:hover, .card.hoverable:hover {
 .contact-card p { color: var(--text-muted); font-size: var(--fs-sm); word-break: break-word; }
 
 /* ---------- Resume page ---------- */
-.resume-card { max-width: 640px; margin: 0 auto; text-align: center; }
-.resume-card .btn { margin-top: var(--space-2); }
 .resume-actions { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; margin-top: var(--space-5); }
-.resume-embed { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin-top: var(--space-6); box-shadow: var(--shadow); }
-.resume-embed embed, .resume-embed object { width: 100%; height: 780px; display: block; }
 
 /* ---------- Home nav guide ---------- */
 .navguide { display: grid; gap: var(--space-3); }
@@ -745,6 +743,6 @@ a.card:hover, .card.hoverable:hover {
   .pager-link { max-width: none; }
   .pager-overview { align-self: flex-start; }
 
-  .resume-embed embed, .resume-embed object { height: 480px; }
   .preview-window embed, .preview-window iframe, .preview-window object { height: 420px; }
+  .preview-window.resume-preview embed, .preview-window.resume-preview object { height: 520px; }
 }

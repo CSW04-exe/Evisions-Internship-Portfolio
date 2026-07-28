@@ -9,7 +9,7 @@ reference and to trace site content back to the original work.
 Alphabetically:
 
 - **`About/`** — background/bio notes and the original resource deck behind `about.html`
-- **`Contact/`** — notes behind `contact.html`
+- **`Contact/`** — notes behind the Contact section of `resume.html`
 - **`Home/`** — notes behind `index.html`
 - **`Internship_Key_Learnings.pdf`** — summary notes spanning the whole internship
 - **`Projects/`**
