@@ -17,5 +17,5 @@ Alphabetically:
   - **`Capstone/`** — the closing capstone deck (`Capstone 2026.pptx`) behind `projects/capstone.html`
   - **`Departments/`** — one folder per department week, `Week 1 - Product & UX/` through `Week 7 - Customer Success Team & Sales/`, each holding that week's notes and deliverables
 - **`Reflection/`** — notes behind `reflection.html`
-- **`Resume & CV/`** — source resume PDF
+- **`Resume/`** — source resume PDF
 - **`Structure.pdf`** — original site structure/outline
