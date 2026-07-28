@@ -17,7 +17,7 @@ https://csw04-exe.github.io/Evisions-Internship-Portfolio/
   - Bonus Courses - Philanthropy, Communications, Connections, Business
   - Shadow Days - three extra days shadowing Marketing's Senior Developer and Analytics group
 - **Reflection** (`reflection.html`) - overall internship experience and takeaways
-- **Resume** (`resume.html`) - resume preview/download, key skills, certifications, and contact info (LinkedIn, GitHub, email)
+- **Resume & Contact** (`resume.html`) - resume preview and download (PDF, Word, plain text) plus contact info (LinkedIn, GitHub, email)
 
 Every page also has a **site help button** (the "?" in the top nav) that opens a popup with general
 navigation help and a note on the fictional data used throughout the Projects section.
@@ -47,7 +47,7 @@ Top-level items, alphabetically:
 |---|---|
 | `css/style.css` | The entire site's stylesheet |
 | `documents/mock-product/` | The SEA wireframe PDF |
-| `documents/resume/` | The resume PDF |
+| `documents/resume/` | The resume, as PDF, Word (.docx), and plain text (.txt) |
 | `documents/weeks/` | Deliverable PDFs from the department weeks, filenames prefixed by week (`week4-case-study.pdf`, etc.) |
 | `img/about/` | Photos and logos used on the About page |
 | `img/weeks/` | Screenshots used on the department week pages, filenames prefixed by week |

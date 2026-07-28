@@ -1,0 +1,53 @@
+CARTER WARD
+(205) 308-3443 | carterw6515@yahoo.com | linkedin.com/in/carterward2004 | github.com/CSW04-exe
+
+EDUCATION
+------------------------------------------------------------
+B.S. Computer Science, AI & Data Science Concentration
+University of Alabama in Huntsville | August 2022 – May 2026
+  - GPA: 3.7/4.0, Cum Laude
+  - SGA Senator (2025–2026)
+
+SKILLS
+------------------------------------------------------------
+Programming & Development: C#, C++, Java, Python, Docker, GitHub, Playwright, VS Code
+Design & Visual Tools: Adobe Acrobat, Canva, Miro
+Writing & Productivity: AP Style Writing, Microsoft Office, Zotero
+
+CERTIFICATIONS
+------------------------------------------------------------
+Argos Training Certificate — Evisions, June 2026
+AI Fluency Framework and Foundations — Anthropic, May 2026
+
+PROFESSIONAL EXPERIENCE
+------------------------------------------------------------
+
+People and Culture Success Intern
+Evisions | Remote | May 2026 – July 2026
+  - Rotated through 7 departments, including product, engineering, marketing, support, finance, customer success, and sales, over a 2-month program, building a working knowledge of how a B2B software company operates from pitch to purchase.
+  - Collaborated with an intern cohort to design and build the Social Engagement Accelerator, a dashboard concept for identifying at-risk students, using market research, Agile, and QA practices to inform UX wireframes and guide the product roadmap.
+  - Delivered more than 15 go-to-market assets, such as buyer personas, digital ad campaigns, an SLA framework, and a financial forecast, then presented the full plan as the program’s team capstone.
+
+QA Tester
+Fintegrate Technology | Trussville, AL | May 2026 – June 2026
+  - Mentored directly under Fintegrate Technology’s CTO through a 9-week QA apprenticeship, stabilizing the Playwright acceptance suite for FusionDMS, a platform banks and credit unions used to resolve loan and card disputes, by rerunning 106-plus TypeScript specs across repeated passes to isolate genuine regressions from environment flakiness.
+  - Audited 39 user-facing workflows against the live Angular application to score test depth and production risk, surfacing 18 workflows with zero coverage and flagging eight passing specs that masked correctness problems, including permission checks that could report success without ever blocking a restricted user.
+  - Authored 23 new Playwright test cases targeting the audit’s highest-risk gaps, building a full role-based access matrix and a member detail screen suite, then documented the full 9-week effort in a structured acceptance testing report for engineering review.
+
+Student Specialist IV
+UAH College of Business | Huntsville, AL | January 2026 – April 2026
+  - Interviewed and profiled 5 of 20 honorees for the UAH College of Business Top 20 of 2026 magazine, writing feature stories in AP style for publication.
+  - Cooperated with a 4-person writing team on shared deadlines through a master spreadsheet and weekly peer-review sprints to keep every profile on track.
+  - Applied the program’s style guide during peer review, catching consistency errors across the full 20-profile set, and was published in the magazine’s writer’s section.
+
+Technical Writer Intern
+Book Systems Inc. | Huntsville, AL | January 2025 – May 2025
+  - Modernized technical manuals for three library-management products, Atriuum, Librista, and Booktracks, rewriting outdated instructions into clearer, task-oriented guidance for end users.
+  - Completed 9 to 10 revision tasks per sprint alongside a writing team over 5 consistent months.
+  - Unified documentation style across all three product lines, reducing inconsistency for end users.
+
+Brewista
+7Brew Coffee | Huntsville, AL | May 2024 – October 2025
+  - Managed the Touchpoint POS system to process orders, payments, customer accounts, and the rewards program for a high-volume drive-through, maintaining wait times under 5 minutes through speed and accuracy.
+  - Alternated between inside duties (making drinks, restocking, cleaning) and outside duties (managing lanes and customer interactions) on a crew of 5 to 8, tracking inventory along the way.
+  - Built customer satisfaction through genuine interaction and guidance for new customers, driving an exceptionally low churn rate and informing customers of promotions like buy-one-get-one-free deals and holiday sales that contributed to a 10 to 15% increase in sales.
