@@ -713,6 +713,22 @@ a.card:hover, .card.hoverable:hover {
 .screenshot-figure figcaption { padding: var(--space-3) var(--space-4); font-size: var(--fs-xs); color: var(--text-faint); }
 .screenshot-figure.wide { grid-column: 1 / -1; }
 .screenshot-figure.wide img { max-height: 420px; object-fit: contain; background: var(--white); }
+.screenshot-figure.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  height: 100%;
+  padding: var(--space-6) var(--space-4);
+  text-align: center;
+  text-decoration: none;
+  color: var(--text);
+}
+.screenshot-figure.link-card:hover { background: var(--card-hover); }
+.screenshot-figure.link-card .card-icon { width: 40px; height: 40px; margin: 0; color: var(--primary); }
+.screenshot-figure.link-card strong { font-size: var(--fs-sm); }
+.screenshot-figure.link-card span { font-size: var(--fs-xs); color: var(--text-faint); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {

@@ -16,6 +16,7 @@ Alphabetically:
   - **`Bonus/`** — one folder per Friday bonus course with a distinct handout: `Business/`, `Communications/`, `Philanthropy/` (Connections had no separate handout, so there's no folder for it)
   - **`Capstone/`** — the closing capstone deck (`Capstone 2026.pptx`) behind `projects/capstone.html`
   - **`Departments/`** — one folder per department week, `Week 1 - Product & UX/` through `Week 7 - Customer Success Team & Sales/`, each holding that week's notes and deliverables
+  - **`Shadow Days/`** — notes and a screenshot from the CoHEsion WordPress/Divi shadow days (`CoHEsion/`) plus session notes from the department's other meetings (`Other/`), behind `projects/shadow-days.html`
 - **`Reflection/`** — notes behind `reflection.html`
 - **`Resume/`** — source resume PDF
 - **`Structure.pdf`** — original site structure/outline

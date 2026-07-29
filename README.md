@@ -46,10 +46,12 @@ Top-level items, alphabetically:
 | Path | Contents |
 |---|---|
 | `css/style.css` | The entire site's stylesheet |
+| `documents/capstone/` | The capstone deck, converted to PDF |
 | `documents/mock-product/` | The SEA wireframe PDF |
 | `documents/resume/` | The resume, as PDF, Word (.docx), and plain text (.txt) |
 | `documents/weeks/` | Deliverable PDFs from the department weeks, filenames prefixed by week (`week4-case-study.pdf`, etc.) |
 | `img/about/` | Photos and logos used on the About page |
+| `img/shadow-days/` | Screenshot from the Shadow Days WordPress/Divi practice build |
 | `img/weeks/` | Screenshots used on the department week pages, filenames prefixed by week |
 | `img/` (root files) | Site-wide images: OG share image, SEA brand assets, home page profile photo |
 | `js/main.js` | Mobile nav toggle and the site help modal |
