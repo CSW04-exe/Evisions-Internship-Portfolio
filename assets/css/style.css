@@ -336,8 +336,8 @@ main { padding-top: var(--nav-height); }
   margin-bottom: var(--space-3);
 }
 .hero-avatar {
-  width: 152px;
-  height: 152px;
+  width: 176px;
+  height: 176px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: var(--shadow);
@@ -697,8 +697,8 @@ a.card:hover, .card.hoverable:hover {
   margin: var(--space-5) 0 var(--space-7);
 }
 .about-photo-item {
-  width: 108px;
-  height: 108px;
+  width: 132px;
+  height: 132px;
   flex-shrink: 0;
   border-radius: var(--radius);
   overflow: hidden;
