@@ -1,89 +1,73 @@
-# Carter Ward | Evisions Internship Portfolio
+# Evisions Internship Portfolio
 
-Personal portfolio site built during my Summer 2026 internship with Evisions, showcasing project work and more.
+**Type:** Individual project
+**Contributor:** Carter Ward
+**For:** Evisions Summer 2026 internship (not a class assignment)
+**Completed:** 08/23/2026
 
-## Live Site
+**Live site:** https://csw04-exe.github.io/Evisions-Internship-Portfolio/
 
-https://csw04-exe.github.io/Evisions-Internship-Portfolio/
+## Purpose
 
-## Sections
+This repo is the source for a static site documenting my Summer 2026 internship at Evisions, a
+company that's spent 25+ years building higher-ed software (Argos, IntelliCheck, FormFusion). It
+serves two purposes: a portfolio piece I can point employers to, and an internship deliverable in
+its own right — the site is part of what I produced.
 
-- **Home** (`index.html`) - welcome message and overview
-- **About** (`about.html`) - background, education, and skills
-- **Projects** (`projects/`) - sidebar-navigated section covering:
-  - Department Weeks - 7 weekly rotations (Product/UX through Customer Success Team/Sales)
-  - Mock Product - the SEA dashboard concept
-  - Capstone - closing presentation, synthesizing every department rotation
-  - Bonus Courses - Philanthropy, Communications, Connections, Business
-  - Shadow Days - three extra days shadowing Marketing's Senior Developer and Analytics group
-- **Reflection** (`reflection.html`) - overall internship experience and takeaways
-- **Resume & Contact** (`resume.html`) - resume preview and download (PDF) plus contact info (LinkedIn, GitHub, email)
+## Problem and Approach
 
-Every page also has a **site help button** (the "?" in the top nav) that opens a popup with general
-navigation help and a note on the fictional data used throughout the Projects section.
+Seven weekly department rotations plus a capstone, a mock product, four bonus courses, and three
+shadow days produce dozens of artifacts across totally different disciplines — dumped in a folder
+that's an unreadable pile of PDFs. I set out to present all of it as one cohesive, navigable site
+instead, with an information architecture built around Home, About, a sidebar-navigated Projects
+section (Department Weeks, Mock Product, Capstone, Bonus Courses, Shadow Days), Reflection, and
+Resume & Contact — plus a site-help modal clarifying that SEA is a fictional mock product and any
+Argos screenshots come from training data, not real students.
 
-## Repository Structure
+## Structure and Methodologies
 
-Top-level items, alphabetically:
+- Plain HTML/CSS/vanilla JS — no frameworks, no build step, no npm install
+- Hand-written pages sharing common header/nav/site-help-modal/footer markup, each with its own
+  title, meta description, Open Graph/Twitter tags, and schema.org JSON-LD
+- Single `assets/css/style.css` (~875 lines) using CSS custom properties for color, spacing, and
+  type scale; no Bootstrap/Tailwind/Google Fonts
+- `assets/js/main.js` for mobile nav, accessible modal (focus trap), scroll reveal, click-to-copy
+- `assets/documents/` and `assets/img/` organized by project/week (`capstone/`, `mock-product/`,
+  `resume/`, `weeks/`)
+- `projects/` mirrors the Projects sidebar (week-1–7, mock-product, capstone, bonus, shadow-days);
+  legacy redirect stubs at the repo root preserve old links
+- Deployed via GitHub Pages; `.github/workflows/link-check.yml` runs lychee on every push/PR and
+  weekly to catch broken links
+- `source-material/` holds raw drafts/notes, excluded from the deployed site
 
-| Item | What it is |
-|---|---|
-| `.github/` | CI: a GitHub Actions workflow that checks every internal and external link on every push |
-| `404.html` | Custom "page not found" page (GitHub Pages requires this at the repo root) |
-| `about.html` | About page |
-| `assets/` | Stylesheet, script, images, and documents — see below |
-| `index.html` | Home page |
-| `projects/` | Every page reachable through the Projects sidebar — see below |
-| `README.md` | This file |
-| `reflection.html` | Reflection page |
-| `resume.html` | Resume page (also covers Contact) |
-| `robots.txt`, `sitemap.xml` | SEO files for search engines |
-| `source-material/` | Raw internship deliverables, notes, and planning docs used to write the site's content. Not part of the deployed site — see `source-material/README.md`. |
-| *18 files:* `bonus-business.html`, `bonus-communications.html`, `bonus-connections.html`, `bonus-philanthropy.html`, `capstone.html`, `contact.html`, `mock-product.html`, `projects-bonus.html`, `projects-weeks.html`, `projects.html`, `shadow-days.html`, `week-1.html`–`week-7.html` | **Legacy redirect stubs.** Old URLs that just forward to where that content lives now: the original Projects section (which used to live at the repo root) forwards into `projects/`, and the old standalone Contact page (`contact.html`) forwards into `resume.html`. Each one must stay at its exact original path, or the old URL it exists to catch breaks. Safe to ignore otherwise — each file also has a comment at the top saying the same thing. |
+## Process
 
-### `assets/`
+1. **Week 1 — Product & UX:** SDLC basics, roadmap and target-market analysis, kicked off the SEA
+   mock product
+2. **Week 2 — Engineering & QA:** exploratory testing charter, hands-on with Argos
+3. **Week 3 — Professional Services:** Argos workshop, earned Argos Training Certificate
+4. **Week 4 — Marketing:** buyer persona, case study, ad concepts, launch/webinar emails and
+   social copy
+5. **Week 5 — Support/DevOps/Cybersecurity:** phishing-awareness email, support org chart and SLA
+   plan
+6. **Week 6 — Finance & HR:** 30-60-90 day plan, AI-driven financial model, total-comp exercise
+7. **Week 7 — Customer Success & Sales:** customer persona ("Amanda") tying feedback and sales
+   thinking back into SEA
 
-| Path | Contents |
-|---|---|
-| `css/style.css` | The entire site's stylesheet |
-| `documents/capstone/` | The capstone deck, converted to PDF |
-| `documents/mock-product/` | The SEA wireframe PDF |
-| `documents/resume/` | The resume, as a PDF |
-| `documents/weeks/` | Deliverable PDFs from the department weeks, filenames prefixed by week (`week4-case-study.pdf`, etc.) |
-| `img/about/` | Photos and logos used on the About page |
-| `img/shadow-days/` | Screenshot from the Shadow Days WordPress/Divi practice build |
-| `img/weeks/` | Screenshots used on the department week pages, filenames prefixed by week |
-| `img/` (root files) | Site-wide images: OG share image, SEA brand assets, home page profile photo |
-| `js/main.js` | Mobile nav toggle and the site help modal |
+Alongside these, I attended Friday bonus courses (Philanthropy, Communications, Connections,
+Business) and shadowed Marketing for three extra days. Everything fed into the capstone
+presentation synthesizing all seven rotations.
 
-### `projects/`
+## Outcome
 
-| File | What it is |
-|---|---|
-| `bonus-business.html`, `bonus-communications.html`, `bonus-connections.html`, `bonus-philanthropy.html` | The four Friday bonus course pages |
-| `bonus.html` | Bonus Courses overview |
-| `capstone.html` | Capstone page |
-| `index.html` | Projects overview (the section's landing page) |
-| `mock-product.html` | Mock Product (SEA) page |
-| `shadow-days.html` | Shadow Days page |
-| `week-1.html` – `week-7.html` | The seven department week pages |
-| `weeks.html` | Department Weeks overview |
+The result is a complete, deployed multi-page site covering all seven rotations plus the mock
+product, capstone, bonus courses, and shadow days, backed by the original PDFs and screenshots.
+Building it gave me applied practice with front-end development (semantic HTML, a CSS design
+system, accessible JS), technical/marketing writing, and shipping something end-to-end — SEO
+metadata, asset organization, and CI to catch broken links. It demonstrates I can turn a messy,
+cross-disciplinary set of deliverables into something coherent and maintainable.
 
-Root-level pages are the five primary sections reachable from the top nav. Everything reachable only
-through the Projects sidebar lives under `projects/` so the file tree matches the site's own
-information architecture.
+## How to View Locally
 
-## Built With
-
-- HTML, CSS, and JavaScript
-- No frameworks or build tools required
-
-## Running Locally
-
-- Clone the repository
-- Open `index.html` in a browser, or serve the folder with any static file server (e.g. `python3 -m http.server`)
-
-## Deployment
-
-- Hosted with GitHub Pages
-- Deploys automatically from the main branch on every push
+No build step or dependencies required. Clone the repo and open `index.html` in a browser, or
+serve it with `python3 -m http.server` and visit `http://localhost:8000/`.
