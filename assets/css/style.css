@@ -645,7 +645,7 @@ a.card:hover, .card.hoverable:hover {
   max-width: 320px;
 }
 .pager-link:hover { background: var(--card-hover); }
-.pager-link.next { text-align: right; }
+.pager-link.next { text-align: right; margin-left: auto; }
 .pager-label { display: block; font-size: var(--fs-xs); color: var(--text-faint); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
 .pager-title { color: var(--navy); font-weight: 700; }
 .pager-overview {
@@ -663,6 +663,31 @@ a.card:hover, .card.hoverable:hover {
   transition: border-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
 }
 .pager-overview:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-1px); }
+
+/* ---------- Status banner (open-to-work callout) ---------- */
+.status-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--secondary);
+  border-radius: var(--radius);
+  padding: var(--space-4) var(--space-5);
+  margin: var(--space-5) 0;
+}
+.status-banner .status-dot {
+  flex-shrink: 0;
+  width: 10px; height: 10px;
+  margin-top: 0.5em;
+  border-radius: 50%;
+  background: var(--secondary);
+  box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.18);
+}
+.status-banner p { margin: 0; color: var(--text); font-size: var(--fs-sm); }
+.status-banner strong { color: var(--navy); }
+.status-banner a { font-weight: 700; }
+.status-banner.center { max-width: 620px; margin-left: auto; margin-right: auto; }
 
 /* ---------- About page layout ---------- */
 .about-photo-array {
